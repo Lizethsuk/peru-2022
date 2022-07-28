@@ -50,7 +50,7 @@
          <div class="container">
             <nav id="navbar nav" class="navbar navbar-expand-lg navbar-light">
                <a class="navbar-brand" href="index.html">
-                  <img src="https://www.porlaeducacion.mx/wp-content/uploads/2019/02/significado-los-colores-la-bandera-peru.jpg" style="width: 120px;" alt="" class="img-fluid sticky-none">
+                  <img  src="https://www.porlaeducacion.mx/wp-content/uploads/2019/02/significado-los-colores-la-bandera-peru.jpg" style="width: 120px;" alt="" class="img-fluid sticky-none wow">
                   <img src="https://www.porlaeducacion.mx/wp-content/uploads/2019/02/significado-los-colores-la-bandera-peru.jpg" style="width: 120px;"  alt="" class="img-fluid sticky-block">
 
                </a>
@@ -83,12 +83,78 @@
                      <div class="banner-content-wrap ">
                          
                            <!-- Countdown end -->
-                        <h1 class="banner-title fadeInUp wow  " data-wow-duration="1s" data-wow-delay="300ms">
-                          REcuerdos del viaje a Perú
-                        </h1>
-                        <p class="banner-info wow fadeInUp" data-wow-duration="1s" data-wow-delay="300ms">
-                           </p>
-                           
+                           <svg viewBox="0 0 800 300">
+
+                              <!-- Symbol with text -->
+                              <symbol id="s-text">
+                                <text text-anchor="middle"
+                                      x="50%"
+                                      y="50%"
+                                      dy=".35em"
+                                      class="text--line"
+                                      >
+                                  Text
+                                </text>    
+                              </symbol>
+                            
+                              <!-- Clippath  with text -->
+                              <clippath id="cp-text">
+                                <text text-anchor="middle"
+                                      x="50%"
+                                      y="50%"
+                                      dy=".35em"
+                                      class="text--line"
+                                      >
+                                 Recuerdos de  Perú
+                                </text>
+                               
+                              </clippath>
+                            
+                              <!-- Group for shadow -->
+                              <g clip-path="url(#cp-text)" class="shadow">
+                                <rect
+                                      width="100%"
+                                      height="100%"         
+                                      class="anim-shape anim-shape--shadow"
+                                      ></rect>
+                              </g>
+                            
+                              <!-- Group with clippath for text-->
+                              <g clip-path="url(#cp-text)" class="colortext">
+                                <!-- Animated shapes inside text -->
+                                <rect
+                                      width="100%"
+                                      height="100%"         
+                                      class="anim-shape"
+                                      ></rect>
+                                <rect
+                                      width="80%"
+                                      height="100%"         
+                                      class="anim-shape"
+                                      ></rect>
+                                <rect
+                                      width="60%"
+                                      height="100%"         
+                                      class="anim-shape"
+                                      ></rect>
+                                <rect
+                                      width="40%"
+                                      height="100%"         
+                                      class="anim-shape"
+                                      ></rect>
+                                <rect
+                                      width="20%"
+                                      height="100%"         
+                                      class="anim-shape"
+                                      ></rect>
+                              </g>
+                            
+                              <!-- Transparent copy of text to keep
+                                     patterned text selectable -->
+                              <use xlink:href="#s-text"
+                                   class="text--transparent"></use>
+                            
+                            </svg>
                         
 
                      </div>
@@ -108,7 +174,7 @@
       <section id="about" class="ts-intro event-intro">
          <div class="container">
             <div class="row">
-               <div class="col-lg-4 col-md-4 mx-auto pb-5 pl-3 pr-3">
+               <div class="col-lg-4 col-md-4 mx-auto  pl-3 pr-3">
                   <div class="line-color0"></div>
                   <h2 class="section-title ">
                      
@@ -254,7 +320,7 @@
                   Evelyn siendo empujada <br> por Antonio
                   </h2>
                   <p class="amount-progres-text">
-                    Bla bla bla
+                    Lisa y Luci enseñando a patinar a Eve, <br> mientras ella se arrastra en una pobre foquita.
                </p>
                <img src="./images/patinaje/todos.jpeg" alt="">
          
@@ -294,6 +360,19 @@
             <div class="col-lg-4 col-md-4 pl-3 pr-3 my-auto">
                <img src="https://c.tenor.com/5wJBQKTldVIAAAAC/aldi-kevinthecarrot.gif" alt=""  >
 
+            </div>
+            
+            <div class="col-md-6 pl-3 pr-3 my-auto">
+               <video src="./images/video/03.mp4" autoplay loop muted></video>
+            </div>
+            
+            <div class="col-md-6 pl-3 pr-3 my-auto">
+               <h2 class="section-title pt-5 sub">
+                  Lisa y los baby Yodas
+               </h2>
+               <p class="amount-progres-text">
+                 Un videito en la fiestita de bienvenida :D
+               </p>
             </div>
          </div><!-- container end-->
   
@@ -362,10 +441,7 @@
        <section id="schedules" class="ts-schedule ts-schedule-white"  >
          <div class="container">
             <div class="row">
-               <div class="col-lg-4">
-                  <img src="./images/fotos-varios/lucii.png" alt="" style="width: 200px;">
-               </div>
-               <div class="col-lg-4 ">
+               <div class="col-lg-4  order-lg-2 ">
                   <h2 class="section-title pb-0 mb-5 text-center">
                     Lisa y Luci recomiendan volver a Perú
                   </h2>
@@ -373,7 +449,11 @@
                    </p>
                 
                </div><!-- col end-->
-               <div class="col-lg-4">
+               <div class="col-lg-4 order-lg-1 col-6 text-center">
+                  <img src="./images/fotos-varios/lucii.png" alt="" style="width: 200px;">
+               </div>
+               
+               <div class="col-lg-4 order-lg-3 col-6 text-center">
                   <img src="./images/fotos-varios/lisa.png" alt="" style="width: 200px;">
                </div>
 
@@ -416,7 +496,7 @@
 LIZETH                           </li>
 <li>ANTONIO                       </li>
 <li>TIA YOLANDA</li><li>TIO MANUEL</li>   <li>TIA SONIA</li> <li>TIA FELI</li> <li>TIA ZELMA</li>   <li>MARIA ELENA</li> <li>EDUARDO </li>
-<li>INDIRA</li> <li>MELISA</li>  <li>ANGELA</li> <li>ZEILA</li><li>ZAELI</li> <li>CHULETA</li> <li>NINA 🐶</li>
+<li>INDIRA</li> <li>MELISA</li>  <li>ANGELA</li> <li>WENDY</li> <li>GABRIEL</li> <li>ZEILA</li><li>ZAELI</li> <li>CHULETA</li> <li>NINA 🐶</li>
                           
                         </ul>
                      </div>

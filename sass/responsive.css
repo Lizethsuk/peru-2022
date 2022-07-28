@@ -17,7 +17,6 @@ tab rotate
     margin-bottom: 5px;
   }
 }
-
 @media (min-width: 992px) and (max-width: 1200px) {
   .navbar-brand img {
     max-width: 360px;
@@ -28,7 +27,7 @@ tab rotate
   }
   .header ul.navbar-nav > li > a {
     padding: 0 10px;
-    font-size: 13px;
+    font-size: 22px;
   }
   .banner-item .banner-content-wrap .banner-title {
     font-size: 54px;
@@ -97,7 +96,6 @@ tab rotate
     margin-bottom: 0px;
   }
 }
-
 /*==========================
 tab device 
 ===========================*/
@@ -124,7 +122,7 @@ tab device
     padding-left: 15px !important;
   }
   .ts-speakers,
-  section {
+section {
     padding: 60px 0;
   }
   .navbar-light .navbar-toggler-icon {
@@ -152,8 +150,7 @@ tab device
   }
   .header ul.navbar-nav > li .dropdown-menu {
     background: transparent;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
   }
   .header-classic {
     padding: 10px 0;
@@ -241,7 +238,7 @@ tab device
     padding: 60px 0 40px;
   }
   .mb-70,
-  .intro-left-content {
+.intro-left-content {
     margin-bottom: 50px;
   }
   .ts-intro.event-intro {
@@ -296,7 +293,7 @@ tab device
     padding-bottom: 20px;
   }
   .pricing-item,
-  .location-form {
+.location-form {
     margin-bottom: 50px;
   }
   .speaker-shap {
@@ -364,7 +361,7 @@ tab device
     margin-bottom: 40px;
   }
   .post-tags,
-  .share-items {
+.share-items {
     width: 100%;
     float: none !important;
     margin: 5px 0;
@@ -382,8 +379,8 @@ tab device
     width: 100%;
   }
   .ts-footer.ts-footer-item .footer-menu,
-  .ts-footer.ts-footer-item .ts-footer-social,
-  .ts-footer.ts-footer-item .copyright-text.text-right {
+.ts-footer.ts-footer-item .ts-footer-social,
+.ts-footer.ts-footer-item .copyright-text.text-right {
     text-align: center !important;
   }
   .ts-footer.ts-footer-item .newsletter-form {
@@ -403,7 +400,6 @@ tab device
     margin: 0px;
   }
 }
-
 /*==========================
 small device /mobile sm and large
 ===========================*/
@@ -440,8 +436,7 @@ small device /mobile sm and large
     padding-top: 12px;
   }
   .header ul.navbar-nav > li .dropdown-menu {
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
   }
   .header.h-transparent2 .navbar.navbar-light ul.navbar-nav > li > a {
     color: #fff;
@@ -481,8 +476,7 @@ small device /mobile sm and large
   }
   .header-transparent .dropdown-menu {
     background: transparent;
-    -webkit-box-shadow: none !important;
-            box-shadow: none !important;
+    box-shadow: none !important;
     padding: 10px 25px;
   }
   .header-transparent .dropdown-menu li a {
@@ -670,8 +664,7 @@ small device /mobile sm and large
     padding-top: 10px;
   }
   .ts-pricing.classic .ts-pricing-item {
-    -webkit-box-shadow: 0.799px 0 40px 0px rgba(0, 0, 0, 0.1);
-            box-shadow: 0.799px 0 40px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0.799px 0 40px 0px rgba(0, 0, 0, 0.1);
   }
   .ts-sponsors .sponsors-logo {
     margin: 0;
@@ -681,15 +674,15 @@ small device /mobile sm and large
     padding: 40px 0;
   }
   .ts-speakers,
-  section,
-  .ts-intro-item {
+section,
+.ts-intro-item {
     padding: 60px 0;
   }
   .ts-speakers {
     padding-bottom: 30px;
   }
   .section-title,
-  .column-title {
+.column-title {
     margin-bottom: 40px;
     font-size: 30px;
     text-align: center;
@@ -697,7 +690,7 @@ small device /mobile sm and large
     font-weight: bold;
   }
   .column-title,
-  .pricing-item {
+.pricing-item {
     margin-bottom: 35px;
   }
   .speaker-shap {
@@ -709,55 +702,42 @@ small device /mobile sm and large
   .ts-exp-wrap .ts-exp-content {
     padding: 60px 45px;
   }
-  .ts-schedule
-.ts-schedule-info {
+  .ts-schedule .ts-schedule-info {
     margin-top: 40px;
     margin-bottom: 40px;
   }
-  .ts-schedule
-.ts-schedule-info ul {
+  .ts-schedule .ts-schedule-info ul {
     min-height: 150px;
   }
-  .ts-schedule
-.ts-schedule-info ul li a {
+  .ts-schedule .ts-schedule-info ul li a {
     width: 100px;
     height: 100px;
     padding: 35px 0;
   }
-  .ts-schedule
-.ts-schedule-info ul li a h3 {
+  .ts-schedule .ts-schedule-info ul li a h3 {
     font-size: 15px;
     margin-bottom: 0;
   }
-  .ts-schedule
-.ts-schedule-info ul li a span {
+  .ts-schedule .ts-schedule-info ul li a span {
     text-transform: capitalize;
     font-size: 12px;
   }
-  .ts-schedule
-.ts-schedule-info ul li:nth-child(1) a {
+  .ts-schedule .ts-schedule-info ul li:nth-child(1) a {
     top: 30px;
   }
-  .ts-schedule
-.ts-schedule-info ul li:nth-child(2) a {
+  .ts-schedule .ts-schedule-info ul li:nth-child(2) a {
     left: 76px;
   }
-  .ts-schedule
-.ts-schedule-info ul li:nth-child(3) a {
+  .ts-schedule .ts-schedule-info ul li:nth-child(3) a {
     top: 30px;
     left: 160px;
     right: auto;
   }
   .schedule-listing {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .schedule-listing .schedule-slot-time {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
+    flex: 0 0 100%;
     max-width: 100%;
     padding: 20px 35px;
   }
@@ -821,7 +801,7 @@ small device /mobile sm and large
     margin-top: 40px;
   }
   .ts-footer.ts-footer-item .footer-menu,
-  .ts-footer.ts-footer-item .ts-footer-social {
+.ts-footer.ts-footer-item .ts-footer-social {
     text-align: center;
   }
   .ts-footer.ts-footer-item .copyright-text.text-right {
@@ -1000,7 +980,6 @@ small device /mobile sm and large
     margin-bottom: 0px;
   }
 }
-
 @media (max-width: 480px) {
   .ts-sponsors img {
     width: 100% !important;
@@ -1030,7 +1009,6 @@ small device /mobile sm and large
     font-weight: bold;
   }
 }
-
 @media (max-width: 375px) {
   .header .navbar-brand {
     padding: 0;
@@ -1043,7 +1021,6 @@ small device /mobile sm and large
     line-height: 26px;
   }
 }
-
 @media (max-width: 368px) {
   .header .navbar-brand {
     padding: 0;
@@ -1056,7 +1033,6 @@ small device /mobile sm and large
     line-height: 26px;
   }
 }
-
 @media (max-width: 356px) {
   .header .navbar-brand {
     padding: 0;
@@ -1065,7 +1041,6 @@ small device /mobile sm and large
     max-width: 232px;
   }
 }
-
 @media (max-width: 320px) {
   .header .navbar-brand {
     padding: 0;
@@ -1095,7 +1070,6 @@ small device /mobile sm and large
     margin-bottom: 0px;
   }
 }
-
 @media (max-width: 300px) {
   .header .navbar-brand {
     padding: 0;
@@ -1107,5 +1081,4 @@ small device /mobile sm and large
   .ts-schedule-white p {
     font-size: 23px;
   }
-}
-/*# sourceMappingURL=responsive.css.map */
+}/*# sourceMappingURL=responsive.css.map */

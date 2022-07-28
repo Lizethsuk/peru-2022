@@ -12,56 +12,51 @@
 3.  Header area
 4.	Banner area
 
-	
+
 */
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i");
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 @font-face {
-  font-family: 'GT Pressura';
+  font-family: "GT Pressura";
   src: url("../fonts/GT Pressura/gt-pressura-regular-web-webfont.ttf");
   src: url("../fonts/GT Pressura/gt-pressura-regular-web-webfont.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
-
 @font-face {
-  font-family: 'GT Pressura-light-italic';
+  font-family: "GT Pressura-light-italic";
   src: url("../fonts/GT Pressura/gt-pressura-light-italic-web-webfont.ttf");
   src: url("../fonts/GT Pressura/gt-pressura-light-italic-web-webfont.ttf") format("truetype");
   font-weight: lighter;
   font-style: italic;
 }
-
 @font-face {
-  font-family: 'GT Pressura-regular-italic';
+  font-family: "GT Pressura-regular-italic";
   src: url("../fonts/GT Pressura/gt-pressura-regular-italic-web-webfont.ttf");
   src: url("../fonts/GT Pressura/gt-pressura-regular-italic-web-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
 }
-
 @font-face {
-  font-family: 'GT Pressura-bold-italic';
+  font-family: "GT Pressura-bold-italic";
   src: url("../fonts/GT Pressura/gt-pressura-bold-italic-web-webfont.ttf");
   src: url("../fonts/GT Pressura/gt-pressura-bold-italic-web-webfont.ttf") format("truetype");
   font-weight: bold;
   font-style: italic;
 }
-
 @font-face {
-  font-family: 'GT Pressura-bold';
+  font-family: "GT Pressura-bold";
   src: url("../fonts/GT Pressura/gt-pressura-bold-web-webfont.ttf");
   src: url("../fonts/GT Pressura/gt-pressura-bold-web-webfont.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
-
 /* ============================== */
 /* Typography
 ================================================== */
 body,
 p {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   line-height: 26px;
   font-size: 16px;
   color: #888888;
@@ -74,12 +69,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'GT Pressura';
+  font-family: "GT Pressura";
   color: #1c1c24;
 }
 
 h1, h2 {
-  font-family: 'GT Pressura-bold';
+  font-family: "GT Pressura-bold";
 }
 
 h1 {
@@ -315,13 +310,11 @@ img.pull-right {
   color: #222222;
   text-decoration: none !important;
 }
-
 .btn-link i {
   margin-left: 6px;
   position: relative;
   top: 2px;
 }
-
 .btn-link:hover {
   color: #7b5aa1;
 }
@@ -338,13 +331,11 @@ img.pull-right {
   text-transform: uppercase;
   line-height: 42px;
 }
-
 .section-title.sub,
 .column-title.sub {
   margin-bottom: 10px;
   padding-top: 50px;
 }
-
 .section-title span,
 .column-title span {
   display: block;
@@ -358,17 +349,14 @@ img.pull-right {
   margin-bottom: 10px;
   margin-top: -5px;
 }
-
 .section-title.white,
 .column-title.white {
   color: #fff;
 }
-
 .section-title.white:after,
 .column-title.white:after {
   background-image: url(../images/shap/title-white.png);
 }
-
 .section-title.white span,
 .column-title.white span {
   color: #fff;
@@ -379,11 +367,9 @@ img.pull-right {
   line-height: 42px;
   text-align: left;
 }
-
 .column-title span {
   margin-top: 0;
 }
-
 .column-title:after {
   right: auto;
 }
@@ -391,7 +377,7 @@ img.pull-right {
 .ts-title {
   font-size: 31px;
   line-height: 33px;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-weight: 650 !important;
 }
 
@@ -401,22 +387,20 @@ img.pull-right {
   top: 0;
   bottom: 0;
   margin: auto;
-  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .gradient {
   position: relative;
 }
-
 .gradient:before {
   position: absolute;
   left: 0;
   top: 0;
-  background-image: linear-gradient(144deg, #321575 0%, #8d0b93 51%, #ff0066 100%, #ff057c 100%);
+  background-image: linear-gradient(144deg, rgb(50, 21, 117) 0%, rgb(141, 11, 147) 51%, rgb(255, 0, 102) 100%, rgb(255, 5, 124) 100%);
   width: 100%;
   height: 100%;
-  content: '';
+  content: "";
   opacity: 0.902;
 }
 
@@ -426,7 +410,7 @@ img.pull-right {
   top: 0;
   width: 100%;
   height: 100%;
-  content: '';
+  content: "";
   background: rgba(0, 0, 0, 0.5);
 }
 
@@ -435,18 +419,13 @@ img.pull-right {
   margin-bottom: -5px;
   text-align: center;
 }
-
 .pages .pagination {
   margin: 0;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .pages .pagination li:first-child a, .pages .pagination li:last-child a {
   border-radius: 50%;
 }
-
 .pages .pagination li a {
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -468,5 +447,4 @@ img.pull-right {
 
 .color-primary {
   color: #ff057c !important;
-}
-/*# sourceMappingURL=base.css.map */
+}/*# sourceMappingURL=base.css.map */

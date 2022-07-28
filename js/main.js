@@ -23,14 +23,15 @@
 
  
  
+/**
 
-jQuery(function ($) {
-   $('.navbar-nav>li>a').on('click', function(){
-      $('.navbar-collapse').collapse('hide');
-  });
    /**-------------------------------------------------
     *Fixed HEader
     *----------------------------------------------------**/
+    jQuery(function ($) {
+      $('.navbar-nav>li>a').on('click', function(){
+         $('.navbar-collapse').collapse('hide');
+     });
    $(window).on('scroll', function () {
 
       /**Fixed header**/
